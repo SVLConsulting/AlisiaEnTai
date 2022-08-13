@@ -7,7 +7,4 @@ Om de kluis te kunnen kraken, moet je deze repo afschuimen om de regels en code 
 
 Veel plezier:
 
-Joke & Heiko
-Hans & Marjolein
-Bart & Yana
-Sean
+Joke & Heiko & Hans & Marjolein & Bart & Yana & Sean
