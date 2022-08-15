@@ -1,4 +1,5 @@
 Rangschik de foto's van oud naar nieuw.
+De oudste foto heeft als waarde 0, de vde nieuwste heeft waarde 8.
 
 12473830_1000445843332186_480810751699286165_o.jpg
 46789736_10210690487217748_3852930288392863744_n.jpg
