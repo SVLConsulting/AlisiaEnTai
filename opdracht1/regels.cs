@@ -89,15 +89,15 @@ namespace Wedding {
         {
             Console.WriteLine("Welcome to the game...");
 
-            string amountText = Decipher(,n);
-            string attemptsText = Decipher(,l);
-            string delayOneText = Decipher(,m);
-            string delayTwoText = Decipher(,k);
+            string amountText = decoderen(sleutel, tekst);
+            string attemptsText = decoderen(sleutel, tekst);
+            string delayOneText = decoderen(sleutel, tekst);
+            string delayTwoText = decoderen(sleutel, tekst);
 
-            string amount = decodeString(int a, int b, string c);
-            string attempts = decodeString(int a, int b, string c);
-            string delayOne = decodeString(int a, int b, string c);
-            string delayTwo = decodeString(int a, int b, string c);
+            string amount = decodeString(positie, lengte, getal);
+            string attempts = decodeString(positie, lengte, getal);
+            string delayOne = decodeString(positie, lengte, getal);
+            string delayTwo = decodeString(positie, lengte, getal);
 
             Console.WriteLine(amountText, amount);
             Console.WriteLine(attemptsText, attempts);
@@ -135,7 +135,7 @@ namespace Wedding {
             return Encipher(input, 26 - key);  
         }
 
-        public static string (int key, string data)
+        public static decoderen(int key, string data)
         {
             Console.Write("Enter your Key");  
             int key = Convert.ToInt32(Console.ReadLine());  
