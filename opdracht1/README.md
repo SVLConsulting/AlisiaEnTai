@@ -1,5 +1,4 @@
 Rangschik de foto's van oud naar nieuw.
-De oudste foto heeft als waarde 0, de nieuwste heeft waarde 8.
 
 Eenmaal dat je de foto's hebt gerangschikt, kan je verder met het onderstaande:
 
